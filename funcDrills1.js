@@ -1,6 +1,7 @@
 'use strict';
 function createGreeting(name,age){
-  return (`Hi my name is ${name}, and I'm ${age} years old.`);
+    const yearOfBirth = 2018-age;
+  return (`Hi my name is ${name}, and I'm ${age} years old. I was born in the year ${yearOfBirth} `);
 }
 
 const createGreeating1 = createGreeting("Janet", 29);
